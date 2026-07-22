@@ -1,0 +1,102 @@
+<html>
+
+<head>
+  <style>
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+    }
+
+    .gallery-item {
+      text-align: center;
+      margin: 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .nav {
+      background-color: white;
+      width: 100%;
+      text-align: right;
+      height: 50px;
+      padding-top: 20px;
+      padding-right: 20px;
+
+    }
+
+    .nav,
+    a {
+      list-style: none;
+      text-decoration: none;
+      font-size: 25px;
+      margin-right: 20px;
+      color: black;
+    }
+
+    .nav a:hover {
+      border-bottom: 2px solid blue;
+      cursor: pointer;
+      color: blue;
+    }
+
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="../images/logo.jpeg" width="50" height="50">
+  </div>
+  <div class="nav">
+    <nav>
+
+
+      <a href="project.html">home</a>
+      <a href="about college.html ">About College</a>
+      <a href="department.html"> Departments/Courses</a>
+      <a href="gallery.html"> Gallery </a>
+      <a href="https://wayanad.gov.in/en/public-utility/n-m-s-m-government-college-puzhamudi-kalpetta/">Contact Us </a>
+
+
+    </nav>
+
+    <h2>GALLERY</h2>
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img src="../images/img1.jpeg" alt="there is an image">
+        <figcaption>MAIN GATE</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="../images/img2.jpeg" alt="there is an image">
+        <figcaption>SECOND GATE</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="../images/img3.jpeg" alt="there is an image">
+        <figcaption>MAIN BUILDING</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="../images/img4.jpeg" alt="there is an image">
+        <figcaption>MASS DEPARTMENT</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="../images/img5.jpeg" alt="there is an image">
+        <figcaption>LAB</figcaption>
+      </figure>
+    </div>
+</body>
+
+
+</html>
